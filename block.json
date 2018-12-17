@@ -1,0 +1,21 @@
+{
+    "name": "Formulaire de Recherche",
+    "author": "imath",
+    "slug": "formulaire-de-recherche",
+    "version": "1.0.0",
+    "block_id": "formulaire-de-recherche/recherche",
+    "editor_script": {
+        "handle": "formulaire-de-recherche",
+        "relative_path"  : "dist/index.js",
+        "dependencies": [
+            "wp-blocks",
+            "wp-element"
+        ]
+    },
+    "editor_style": {
+        "handle": "formulaire-de-recherche",
+        "relative_path"  : "css/style.css",
+        "dependencies": []
+    },
+    "style": {}
+}

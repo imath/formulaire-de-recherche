@@ -1,0 +1,34 @@
+{
+  "author": "imath",
+  "bugs": {
+    "url": "https://github.com/imath/formulaire-de-recherche/issues"
+  },
+  "description": "A block to insert a basic search form into WordPress posts",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@wordpress/babel-plugin-makepot": "^2.1.2",
+    "@wordpress/babel-preset-default": "^2.1.0",
+    "matchdep": "~1.0.1",
+    "parcel-bundler": "^1.10.3",
+    "po2json": "^1.0.0-alpha"
+  },
+  "engines": {
+    "node": "~6.6.0"
+  },
+  "scripts": {
+    "start": "parcel watch src/index.js",
+    "build": "parcel build src/index.js"
+  },
+  "keywords": [
+    "search",
+    "form"
+  ],
+  "homepage": "https://github.com/imath/formulaire-de-recherche",
+  "license": "GPL-2.0+",
+  "name": "formulaire-de-recherche",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imath/formulaire-de-recherche.git"
+  },
+  "version": "1.0.0"
+}
