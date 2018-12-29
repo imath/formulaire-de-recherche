@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/index.js:22
+msgid "Formulaire de recherche"
+msgstr ""
+
+#: src/index.js:8
+msgid ""
+"Un bloc pour intégrer un formulaire de recherche dans vos publications "
+"WordPress."
+msgstr ""

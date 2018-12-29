@@ -13,11 +13,12 @@
     "po2json": "^1.0.0-alpha"
   },
   "engines": {
-    "node": "~6.6.0"
+    "node": "~10.13.0"
   },
   "scripts": {
     "start": "parcel watch src/index.js",
-    "build": "parcel build src/index.js"
+    "build": "parcel build src/index.js",
+    "translate": "po2json languages/formulaire-de-recherche-en_US.po languages/formulaire-de-recherche-en_US-formulaire-de-recherche-block.json -f jed"
   },
   "keywords": [
     "search",

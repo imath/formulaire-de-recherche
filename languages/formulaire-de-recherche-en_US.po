@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Poedit 1.7.1\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: imath <mathchristo@yahoo.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: src/index.js:22
+msgid "Formulaire de recherche"
+msgstr "Search Form"
+
+#: src/index.js:8
+msgid ""
+"Un bloc pour intégrer un formulaire de recherche dans vos publications "
+"WordPress."
+msgstr "A block to insert a basic search form into WordPress posts."

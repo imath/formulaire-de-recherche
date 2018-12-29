@@ -4,8 +4,10 @@
     "github_url": "https://github.com/imath/formulaire-de-recherche.git",
     "version": "1.0.0",
     "block_id": "formulaire-de-recherche/recherche",
+    "php_relative_path": "lib/functions.php",
+    "render_callback": "formulaire_de_recherche_render_callback",
     "editor_script": {
-        "handle": "formulaire-de-recherche",
+        "handle": "formulaire-de-recherche-block",
         "relative_path"  : "dist/index.js",
         "dependencies": [
             "wp-blocks",
