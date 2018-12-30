@@ -54,7 +54,7 @@ function formulaire_de_recherche_render_callback( $attributes = array() ) {
         'after_title'   => "</h2>\n",
     ) );
 
-    $class = 'widget_search';
+    $class = 'widget_search formulaire-de-recherche-block-recherche';
     if ( $block_args['align'] ) {
         $class .= ' align' . sanitize_html_class( $block_args['align'] );
     }

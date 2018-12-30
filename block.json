@@ -16,15 +16,19 @@
     },
     "editor_script": {
         "handle": "formulaire-de-recherche-block",
-        "relative_path"  : "dist/index.js",
+        "relative_path"  : "dist/js/index.js",
         "dependencies": [
             "wp-editor"
         ]
     },
     "editor_style": {
-        "handle": "formulaire-de-recherche",
-        "relative_path"  : "css/style.css",
+        "handle": "formulaire-de-recherche-editor-style",
+        "relative_path"  : "dist/css/editor-style.css",
         "dependencies": []
     },
-    "style": {}
+    "style": {
+        "handle": "formulaire-de-recherche-style",
+        "relative_path"  : "dist/css/style.css",
+        "dependencies": []
+    }
 }

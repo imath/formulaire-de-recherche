@@ -16,8 +16,8 @@
     "node": "~10.13.0"
   },
   "scripts": {
-    "start": "parcel watch src/index.js",
-    "build": "parcel build src/index.js",
+    "start": "parcel watch src/*/*.*",
+    "build": "parcel build src/*/*.*",
     "translate": "po2json languages/formulaire-de-recherche-en_US.po languages/formulaire-de-recherche-en_US-formulaire-de-recherche-block.json -f jed"
   },
   "keywords": [

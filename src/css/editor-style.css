@@ -1,0 +1,76 @@
+/**
+ * Editor Style. These rules are only loaded within the Block Editor.
+ *
+ * NB: the following rules are optimized for the TwentyNineteen theme.
+ */
+
+[data-type="formulaire-de-recherche/recherche"] .formulaire-de-recherche-block-recherche {
+    float:none;
+}
+
+[data-type="formulaire-de-recherche/recherche"] h2.widget-title {
+    clear: both;
+    margin: 1rem 0;
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+}
+
+[data-type="formulaire-de-recherche/recherche"] .widget_search .search-field {
+    width: 100%;
+}
+
+[data-type="formulaire-de-recherche/recherche"] input[type="search"] {
+    background: #fff;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    outline: none;
+    padding: 0.36rem 0.66rem;
+    -webkit-appearance: none;
+    outline-offset: 0;
+    border-radius: 0;
+}
+
+[data-type="formulaire-de-recherche/recherche"].editor-block-list__block input[type="search"] {
+    color: #111;
+    font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 100%;
+    margin: 0;
+    line-height: 1.8;
+    text-rendering: optimizeLegibility;
+}
+
+[data-type="formulaire-de-recherche/recherche"] .widget_search .search-submit {
+    display: block;
+    margin-top: 1rem;
+}
+
+[data-type="formulaire-de-recherche/recherche"] input[type="submit"] {
+    transition: background 150ms ease-in-out;
+    background: #0073aa;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.88889em;
+    font-weight: 600;
+    line-height: 1.2;
+    outline: none;
+    padding: 18px 24px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: bottom;
+    -webkit-appearance: button;
+    text-rendering: optimizeLegibility;
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 600px) {
+    [data-type="formulaire-de-recherche/recherche"] .widget_search .search-field {
+        width: auto;
+    }
+}

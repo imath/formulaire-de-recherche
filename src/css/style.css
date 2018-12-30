@@ -1,0 +1,21 @@
+/**
+ * Style. These rules are loaded within the Block Editor & on the front-end.
+ */
+
+.formulaire-de-recherche-block-recherche.aligncenter,
+.entry .entry-content .formulaire-de-recherche-block-recherche.aligncenter {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.formulaire-de-recherche-block-recherche.alignleft,
+.entry .entry-content .formulaire-de-recherche-block-recherche.alignleft {
+    width: fit-content;
+    margin-left: 0;
+}
+
+.formulaire-de-recherche-block-recherche.alignright,
+.entry .entry-content .formulaire-de-recherche-block-recherche.alignright {
+    width: fit-content;
+    margin-right: 0;
+}

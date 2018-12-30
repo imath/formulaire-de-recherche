@@ -12,20 +12,20 @@ msgstr ""
 "X-Generator: Poedit 1.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/index.js:30
-msgid "Réglages du formulaire"
-msgstr "Form Settings"
-
-#: src/index.js:32
-msgid "Titre"
-msgstr "Title"
-
-#: src/index.js:7
-msgid "Formulaire de recherche"
-msgstr "Search Form"
-
-#: src/index.js:9
+#: src/js/index.js:10
 msgid ""
 "Un bloc pour intégrer un formulaire de recherche dans vos publications "
 "WordPress."
 msgstr "A block to insert a basic search form into WordPress posts."
+
+#: src/js/index.js:35
+msgid "Réglages du formulaire"
+msgstr "Form Settings"
+
+#: src/js/index.js:37
+msgid "Titre"
+msgstr "Title"
+
+#: src/js/index.js:8
+msgid "Formulaire de recherche"
+msgstr "Search Form"
