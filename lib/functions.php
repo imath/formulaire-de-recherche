@@ -47,18 +47,24 @@ function formulaire_de_recherche_render_callback( $attributes = array() ) {
 
     $block_args = wp_parse_args( array_merge( $sidebar_args, $attributes ), array(
         'title'         => '',
+        'align'         => '',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget'  => "</div>\n",
         'before_title'  => '<h2 class="widgettitle">',
         'after_title'   => "</h2>\n",
     ) );
 
+    $class = 'widget_search';
+    if ( $block_args['align'] ) {
+        $class .= ' align' . sanitize_html_class( $block_args['align'] );
+    }
+
     if ( 0 === strpos( $block_args['before_widget'], '<li' ) ) {
         $block_args['before_widget'] = '<ul>' . $block_args['before_widget'];
         $block_args['after_widget'] .= '</ul>';
     }
 
-    $output = sprintf( $block_args['before_widget'], esc_attr( uniqid( 'bloc-formulaire-de-recherche-' ) ), 'widget_search' );
+    $output = sprintf( $block_args['before_widget'], esc_attr( uniqid( 'bloc-formulaire-de-recherche-' ) ), $class );
 
     if ( $block_args['title'] ) {
         $output .=  $block_args['before_title'] . esc_html( $block_args['title'] ) . $block_args['after_title'];

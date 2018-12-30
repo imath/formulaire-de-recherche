@@ -6,12 +6,19 @@
     "block_id": "formulaire-de-recherche/recherche",
     "php_relative_path": "lib/functions.php",
     "render_callback": "formulaire_de_recherche_render_callback",
+    "attributes": {
+        "title" : {
+            "type": "string"
+        },
+        "align" : {
+            "type": "string"
+        }
+    },
     "editor_script": {
         "handle": "formulaire-de-recherche-block",
         "relative_path"  : "dist/index.js",
         "dependencies": [
-            "wp-blocks",
-            "wp-element"
+            "wp-editor"
         ]
     },
     "editor_style": {
