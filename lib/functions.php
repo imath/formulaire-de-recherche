@@ -11,25 +11,6 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Loads the Block Type Translations.
- *
- * @since 1.0.0
- */
-function formulaire_de_recherche_load_translations() {
-    wp_set_script_translations(
-        // JavaScript handle
-        'formulaire-de-recherche-block',
-
-        // Text domain
-        'formulaire-de-recherche',
-
-        // Path to the block's language folder
-        trailingslashit( dirname( __FILE__,  2 ) ) . 'languages'
-    );
-}
-add_action( 'admin_init', 'formulaire_de_recherche_load_translations', 20 );
-
-/**
  * Renders the Search form Block Type.
  *
  * @since 1.0.0

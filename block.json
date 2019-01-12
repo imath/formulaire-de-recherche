@@ -30,5 +30,9 @@
         "handle": "formulaire-de-recherche-style",
         "relative_path"  : "dist/css/style.css",
         "dependencies": []
+    },
+    "translations": {
+        "text_domain": "formulaire-de-recherche",
+        "domain_path": "languages/"
     }
 }
