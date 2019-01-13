@@ -1,0 +1,11 @@
+/.cache export-ignore
+/bin export-ignore
+/bin node_modules
+/src export-ignore
+/.babelrc export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/icon.png export-ignore
+/package.json export-ignore
+/package-lock.json export-ignore
+/phpunit.xml.dist export-ignore
