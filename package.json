@@ -32,5 +32,8 @@
     "type": "git",
     "url": "https://github.com/imath/formulaire-de-recherche.git"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "node-forge": ">=0.10.0"
+  }
 }
