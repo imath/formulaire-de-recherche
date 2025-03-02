@@ -1,5 +1,7 @@
 # Formulaire de recherche
 
+**This WP block is no more maintained and has been archived.** 
+
 ## Français 🇫🇷
 
 Bonjour !
